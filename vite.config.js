@@ -3,7 +3,7 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/styles/",
+  base: "https://natsmarinho.github.io/style-store/",
   plugins: [],
   resolve: {
     /*something*/
