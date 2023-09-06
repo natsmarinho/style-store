@@ -1,5 +1,5 @@
-import { adicionarAoCarrinho } from "./menu-carrinho"
-import { catalogo } from "./utilidades"
+import { adicionarAoCarrinho } from "./menu-carrinho.js"
+import { catalogo } from "./utilidades.js"
 
 export function renderizaCatalogo() {
     for (const produtoCatalogo of catalogo) {

@@ -1,4 +1,4 @@
-import { catalogo, salvarLocalStorage, lerLocalStorage } from "./utilidades";
+import { catalogo, salvarLocalStorage, lerLocalStorage } from "./utilidades.js";
 
 const idProdutoCarrinhoQuantidade = lerLocalStorage("carrinho") ?? {}
 
@@ -16,7 +16,7 @@ function irParaCheckout() {
   if(Object.keys(idProdutoCarrinhoQuantidade).length === 0) {
     return;
   }
-  window.location.href = "./checkout.html"
+  window.open("./checkout.html", '_blank') 
 }
 
 export function inicializaCarrinho() {
@@ -28,7 +28,7 @@ export function inicializaCarrinho() {
 
     btnAbrirCarrinho.addEventListener("click", abrirCarrinho)
 
-    atualizaPrecoCarrinho()
+    atualizaPrecoCarrinho();
     botaoIrParaCheckout.addEventListener("click", irParaCheckout)
 };
 
