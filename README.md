@@ -1,4 +1,4 @@
-<h1>Titulo ou Arte do Projeto</h1> 
+<h1>TStyle store</h1> 
 
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=Github&message=deploy&color=blue&style=for-the-badge&logo=github"/>
@@ -22,7 +22,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto de uma loja de roupas feito durante o intensivão de javascript da Hastag treinamentos. Foi usado no desenvolvimento as seguintes tecnologias: HTML5, TAILWIND e Javascript.
+  Projeto de uma loja de roupas feito durante o intensivão de javascript da Hastag treinamentos. Foi usado no desenvolvimento as seguintes tecnologias: HTML5, TAILWIND css e Javascript.
 </p>
 
 ## Funcionalidades
