@@ -3,7 +3,7 @@ import { apagarDoLocalStorage, desenharProdutoNoCarrinhoSimples, lerLocalStorage
 document.getElementById("numero-cartao").addEventListener("input", function (e) {
     let inputCartaoCredito = e.target;
     const regexCartao = inputCartaoCredito.value.replace(/\s+/g, '').replace(/[^0-9]/gi, '');
-    const formatoCartaoNaTela = "";
+    let formatoCartaoNaTela = "";
 
     for (let i = 0; i < regexCartao.length; i++) {
         if (i > 0 && i % 4 === 0) {
